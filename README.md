@@ -247,7 +247,7 @@ The program is written using:
 To learn more about Solana programming model refer to the [Programming Model
 Overview](https://docs.solana.com/developing/programming-model/overview).
 
-To learn more about developing programs on Solana refer to the [On-Chain 
+To learn more about developing programs on Solana refer to the [On-Chain
 Programs Overview](https://docs.solana.com/developing/on-chain-programs/overview)
 
 ## Pointing to a public Solana cluster
@@ -268,6 +268,13 @@ To point back to the local cluster:
 ```bash
 solana config set --url localhost
 ```
+
+## Writing the client in Rust
+
+This example details writing the client code in typescript; however
+the Solana client program can be written in any language. For an
+example client written in Rust and an accompanying write up see [this
+repo](https://github.com/ezekiiel/simple-solana-program).
 
 ## Expand your skills with advanced examples
 
